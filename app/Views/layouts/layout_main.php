@@ -46,18 +46,17 @@
         <!-- Navbar  -->
         <?= $this->include('layouts/partials/navbar') ?>
 
+        <!-- Content  -->
+        <?= $this->renderSection('content') ?>
+
 
         <!-- Footer  -->
         <?= $this->include('layouts/partials/footer') ?>
     </div>
-
+    <!-- Back to Tsp -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 </div>
 
-
-<?php // $this->renderSection('content'); ?>
-
-<!-- Back to Top -->
-<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 <!-- JavaScript Libraries -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
