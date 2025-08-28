@@ -22,6 +22,9 @@
                         </a>
                         <h3>Sign Up</h3>
                     </div>
+
+
+                    <?= form_open('auth/new_account_submit') ?>
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" id="floatingText" placeholder="jhondoe">
                         <label for="floatingText">Username</label>
@@ -35,10 +38,14 @@
                         <label for="floatingPassword">Password</label>
                     </div>
                     <div class="d-flex align-items-center justify-content-center mb-4">
-                        <span class="me-2" >Forgot your password? </span><a href="<?= site_url('/auth/forgot_password')?>">Forgot Password</a>
+                        <span class="me-2">Forgot your password? </span><a
+                                href="<?= site_url('/auth/forgot_password') ?>">Forgot Password</a>
                     </div>
                     <button type="submit" class="btn btn-primary py-3 w-100 mb-4">Sign Up</button>
-                    <p class="text-center mb-0">Already have an Account? <a href="<?= site_url('/auth/login')?>">Sign In</a></p>
+                    <?= form_close() ?>
+
+                    <p class="text-center mb-0">Already have an Account? <a href="<?= site_url('/auth/login') ?>">Sign
+                            In</a></p>
                 </div>
             </div>
         </div>
