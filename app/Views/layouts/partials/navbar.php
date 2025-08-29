@@ -27,7 +27,7 @@
                     <div class="d-flex align-items-center">
                         <img
                                 class="rounded-circle"
-                                src="img/user.jpg"
+                                src="<?= base_url('assets/images/user.jpg')?>"
                                 alt=""
                                 style="width: 40px; height: 40px"
                         />
@@ -42,7 +42,7 @@
                     <div class="d-flex align-items-center">
                         <img
                                 class="rounded-circle"
-                                src="img/user.jpg"
+                                src="<?= base_url('assets/images/user.jpg')?>"
                                 alt=""
                                 style="width: 40px; height: 40px"/>
                         <div class="ms-2">
@@ -56,7 +56,7 @@
                     <div class="d-flex align-items-center">
                         <img
                                 class="rounded-circle"
-                                src="img/user.jpg"
+                                src="<?= base_url('assets/images/user.jpg')?>"
                                 alt=""
                                 style="width: 40px; height: 40px"/>
                         <div class="ms-2">
@@ -107,7 +107,7 @@
                     data-bs-toggle="dropdown">
                 <img
                         class="rounded-circle me-lg-2"
-                        src="img/user.jpg"
+                        src="<?= base_url('assets/images/user.jpg')?>"
                         alt=""
                         style="width: 40px; height: 40px"/>
                 <span class="d-none d-lg-inline-flex">John Doe</span>

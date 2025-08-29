@@ -8,7 +8,7 @@
             <div class="position-relative">
                 <img
                         class="rounded-circle"
-                        src="img/user.jpg"
+                        src="<?= base_url('assets/images/user.jpg')?>"
                         alt=""
                         style="width: 40px; height: 40px"
                 />

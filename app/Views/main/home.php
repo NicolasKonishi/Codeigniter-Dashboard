@@ -1,10 +1,72 @@
 <?= $this->extend('layouts/layout_main'); ?>
 <?= $this->section('content'); ?>
 
-<h3>Teste</h3>
-<?php for($m=1; $m<=100; $m++): ?>
-<p> lorem</p>
-<?php endfor; ?>
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col ">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                Teste
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                Teste
+            </div>
+        </div>
+        <div class="col">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                Teste
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                Teste
+            </div>
+        </div>
+        <div class="col">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                Teste
+            </div>
+        </div>
+        <div class="col">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                Teste
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                Teste
+            </div>
+        </div>
+        <div class="col">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                Teste
+            </div>
+        </div>
+        <div class="col">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                Teste
+            </div>
+        </div>
+        <div class="col">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                Teste
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <?= $this->endSection(''); ?>
