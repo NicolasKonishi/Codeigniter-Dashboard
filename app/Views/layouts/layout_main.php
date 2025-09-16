@@ -28,16 +28,41 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="<?= base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet">
 
+    <!--    Calendar Flatpikr-->
+    <link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/themes/airbnb.css">
+
     <!-- Template Stylesheet -->
     <link href="<?= base_url('assets/css/style.css') ?>" rel="stylesheet">
 </head>
 
 <body>
+<div class="container-fluid position-relative d-flex p-0">
 
-<?= $this->renderSection('content'); ?>
+    <!-- Spinner -->
+    <?= $this->include('layouts/partials/spinner') ?>
 
-<!-- Back to Top -->
-<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <!--  Side Menu-->
+    <?= $this->include('layouts/partials/side_menu') ?>
+
+    <!-- Content Start -->
+    <div class="content">
+        <!-- Navbar  -->
+        <?= $this->include('layouts/partials/navbar') ?>
+
+        <!-- Content  -->
+        <?= $this->renderSection('content') ?>
+
+        <!-- Footer  -->
+
+
+        <?= $this->include('layouts/partials/footer') ?>
+
+
+    </div>
+    <!-- Back to Tsp -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+</div>
+
 
 <!-- JavaScript Libraries -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -50,8 +75,12 @@
 <script src="<?= base_url('assets/lib/tempusdominus/js/moment-timezone.min.js') ?>"></script>
 <script src="<?= base_url('assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js') ?>"></script>
 
+<!--Flatpickr-->
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
 <!-- Template Javascript -->
 <script src="<?= base_url('assets/js/main.js') ?>"></script>
+
 </body>
 
 </html>
